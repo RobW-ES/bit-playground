@@ -1,3 +1,6 @@
+/**
+ * Append or prepend words or sentences to a sentence.
+ */
 export default class Appender {
   sentence: string
 

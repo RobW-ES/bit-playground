@@ -1,3 +1,9 @@
+/** 
+ * An example Bit project which shows how to create and share
+ * components via Bit.
+ * 
+ * @author Rob Waller
+ */
 import Appender from './components/Appender';
 import Counter from './components/Counter';
 

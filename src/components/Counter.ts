@@ -1,3 +1,6 @@
+/**
+ * Add and subtract values from a number.
+ */
 export default class Counter {
   count: number;
   
