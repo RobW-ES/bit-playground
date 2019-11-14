@@ -17,4 +17,38 @@ There are two tracked Typescript components:
 
 There are stored locally in the `src/components` [directory](https://github.com/RobW-ES/bit-playground/tree/master/src/components).
 
-## Setup
+## Setup and Usage
+
+To get started clone this project and install Bit.
+
+```
+npm install bit-bin -g
+```
+
+Install the NPM dependencies.
+
+```
+npm install
+```
+
+Import the Bit components.
+
+```
+bit login
+
+bit import
+```
+
+You can then make edits to the components locally and they will be tracked. 
+
+You can check the state of things by running the following commands:
+
+```
+bit status
+
+// and or
+
+bit list
+```
+
+For more information please read the Bit [documentation](https://docs.bit.dev/).
