@@ -4,3 +4,4 @@ docker-compose.yml
 package-lock.json
 dist
 *.js
+.bit/
