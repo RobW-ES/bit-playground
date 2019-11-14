@@ -15,7 +15,9 @@ There are two tracked Typescript components:
 - [Appender](https://bit.dev/robw-es/test-one/appender)
 - [Counter](https://bit.dev/robw-es/test-one/counter)
 
-There are stored locally in the `src/components` [directory](https://github.com/RobW-ES/bit-playground/tree/master/src/components).
+They are stored locally in the `src/components` [directory](https://github.com/RobW-ES/bit-playground/tree/master/src/components) and this is where they can be edited.
+
+You can see an example of the Counter component being pulled into another project [here](https://github.com/RobW-ES/bit-project).
 
 ## Setup and Usage
 
@@ -52,3 +54,18 @@ bit list
 ```
 
 For more information please read the Bit [documentation](https://docs.bit.dev/).
+
+### Run the Code
+
+The code is Typescript so it can be run as follows once `npm install` has been run:
+
+```
+tsc && node src/app.js
+```
+
+The Mocha and Chai test suite can be run as follows:
+
+```
+npm run test
+```
+
